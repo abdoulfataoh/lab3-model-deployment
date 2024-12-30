@@ -14,3 +14,8 @@ docker run -d -p 8001:8001 \
 -e MLFLOW_EXPERIMENT_NAME=MLFLOW_EXPERIMENT_NAME \
 -e MODEL_URI=MODEL_URI heart-attack
 ```
+
+#### Check fastapi docs
+```bash
+http://127.0.0.1:8001/docs
+```
