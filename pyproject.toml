@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lab3-model-deployment"
+version = "0.1.0"
+description = ""
+authors = ["abdoulfataoh <abdoulfataoh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = "^2.19.0"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+environs = "^11.2.1"
+pydantic = "^2.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
