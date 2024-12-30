@@ -32,5 +32,5 @@ RUN poetry install
 # [Enable venv]
 ENV PATH="/src/.venv/bin:$PATH"
 
-# # [Start the app]
+# [Start the app]
 CMD [ "make", "run" ]
