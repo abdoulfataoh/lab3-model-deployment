@@ -1,4 +1,5 @@
 ### Lab3 - Deploy Heart-attack
+In this lab, you'll auto retrieve model from MLflow registry server and deploy it in prod env.
 
 #### Build heart-attack
 
